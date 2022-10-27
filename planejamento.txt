@@ -63,14 +63,17 @@
 
           Miguel:
           
-           D:
-           S:
-           T:
-           Q:
-           Q:
-           S:
-           S:
-          
+           D: Dia todo
+           S: 10:30 até 12:00, 17:30 em diante
+           T: 21:30 em diante (provavelmente vou comer e dormir pois vou estar muito cansado)
+           Q: 10:30 até 12:00, 17:30 em diante
+           Q: 21:30 em diante (provavelmente vou comer e dormir pois vou estar muito cansado)
+           S: Manhã inteira
+           S: Dia todo
+           Obs: Todas as tardes em dias uteis vou estar trabalhando dependendo
+                do dia estou com o horario livre na maior parte do tempo, horario: 13:30 até 17:30
+                 
+                 
           Leonardo:
           
             D: Dia todo
