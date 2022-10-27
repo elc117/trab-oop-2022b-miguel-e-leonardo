@@ -1,0 +1,77 @@
+  
+  
+  Classe sintomas:
+    - String nome
+    - int id
+  
+  Classe medicamentos:
+    - String nome
+    - int id
+    
+    //- ArrayList<string> composicao
+    //- float EspacamentoHorario
+    //- float dosagem
+    
+  //Classe vacina:
+    //- String nome
+    //- int id
+    //- ArrayList<data?> retorno
+    //- data? diaDaRealizacao
+  
+  Classe pessoa (mãe):
+    - String Nome
+    - Int Id
+    - char sexo 
+    - int idade
+    - string Endereço
+    - int Telefone
+    
+      Classe Paciente(filha):
+        - float Peso
+        - ArrayList<sintomas> sintomas
+        - char tipoSanguineo
+        - char FatorRH
+        - float altura
+        - float pressaoArterial
+        - float temperatura
+        - ArrayList<string> descricao
+        //- ArrayList<medicamentos> remedio
+        //- float calDiarias
+        //- ArrayList<vacinacao> carteirinhaVacina
+        //- int PeriodoMenstrual
+        //- ArrayList<exame> exames (transformar em classe para ambos participarem)
+        
+      
+      
+      Classe Médico(filha):
+        - int registro
+        - String LocalAtendimento
+        - String Bloco
+        - int Sala
+        - string especialidade
+        - arrayList<data?> começoAtendimento
+        - arrayList<data?> FimAtendimento
+        
+        Horarios Livres:
+
+          Miguel:
+          
+           D:
+           S:
+           T:
+           Q:
+           Q:
+           S:
+           S:
+          
+          Leonardo:
+          
+            D: Dia todo
+            S: < 10:00 || 19:00 >
+            T: 19:00 >
+            Q: 19:00 >
+            Q: 19:00 >
+            S: <10:00 || 19:00 >
+            S: Dia todo
+        
+        
