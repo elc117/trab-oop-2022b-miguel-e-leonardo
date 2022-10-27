@@ -1,8 +1,14 @@
-  
+  Classe Triagem:
+    - boolean realizada
+    - Paciente paciente
+    - Medico atendente
+    - int posicao
+    - boolean prioridade
   
   Classe sintomas:
     - String nome
     - int id
+    - boolean prioridade
   
   Classe medicamentos:
     - String nome
@@ -28,6 +34,7 @@
     
       Classe Paciente(filha):
         - float Peso
+        - boolean prioridade
         - ArrayList<sintomas> sintomas
         - char tipoSanguineo
         - char FatorRH
