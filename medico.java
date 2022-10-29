@@ -1,14 +1,12 @@
 class medico extends pessoa {   //Falta colocar as variaveis com arrays
-    private int registro;
-    private String localAt;
-    private String bloco;
-    private int sala;
-    private String especialidade;
+    protected int registro;
+    protected String localAt;
+    protected String bloco;
+    protected int sala;
+    protected String especialidade;
 
-    public medico(String nome, char sexo, int idade, int id,
-                  String endereco, int telefone, int registro,
-                  String localAt, String bloco, int sala,
-                  String especialidade) {
+    public medico(String nome, char sexo, int idade, int id, String endereco, int telefone, int registro,
+                  String localAt, String bloco, int sala, String especialidade) {
         super(nome, sexo, idade, id, endereco, telefone);
         this.registro = registro;
         this.localAt = localAt;
