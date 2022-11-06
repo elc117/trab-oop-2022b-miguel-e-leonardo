@@ -7,6 +7,7 @@ create table pacientes (
     nascimento date not null,
     endereco varchar(20) not null,
     telefone int not null,
+    consulta int not null,
     
     
     peso decimal(5,2),
