@@ -51,6 +51,7 @@ create table triagem(
     id int not null auto_increment,
     cpf_Paciente int not null,
     cpf_Medico int not null,
+    prioridade bool not null,
     realizada bool not null,
     
     primary key (id)
