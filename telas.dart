@@ -153,7 +153,7 @@ class Cadastro extends StatelessWidget {
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(vertical: 2.0),
           border: OutlineInputBorder(),
-          labelText: 'Pressao Arterial Normal',
+          labelText: 'Temperatura',
         ));
   }
 
