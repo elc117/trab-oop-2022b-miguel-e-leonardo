@@ -11,6 +11,7 @@ import 'telas.dart';
 Future<void> main() async {
 //  var conexao = await MysqlDbConfig().connection;
 //  var result = await conexao!.query('SELECT * FROM medicos');
+//  print(result);
 
   runApp(MaterialApp(
     title: 'Navegação Básica',
