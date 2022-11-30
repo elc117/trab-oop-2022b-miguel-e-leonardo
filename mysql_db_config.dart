@@ -21,7 +21,7 @@ class MysqlDbConfig implements DbConfig {
   @override
   Future<MySqlConnection> createConection() async =>
       await MySqlConnection.connect(ConnectionSettings(
-        host: 'localhost',
+        host: 'localhost', //testar alterar para porta 10.0.2.2 em caso de falha
         port: 3306,
         user: 'root',
         password: '123456',
