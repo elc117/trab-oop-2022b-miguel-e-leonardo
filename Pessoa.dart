@@ -6,7 +6,7 @@ class Pessoa {
   late String nome;
   late String sexo;
   late int idade;
-  late int id;
+  late int cpf;
   late String endereco;
   late int telefone;
 
